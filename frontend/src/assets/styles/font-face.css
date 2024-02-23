@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'FiraGOUPP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../../assets/fonts/firagoupp-medium.woff2") format('woff2'), url("../../assets/fonts/firagoupp-medium.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'FiraGOUPP';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("../../assets/fonts/firagoupp-bold.woff2") format('woff2'), url("../../assets/fonts/firagoupp-bold.woff") format('woff');
+}

@@ -4,7 +4,7 @@ const NavigationExpanded = function ({ navLabel }) {
 
   const thingsToDoHTML = <div className={`header__nav-expanded ${navLabel}-expanded`}>
     <ul className="header__nav-expanded-list">
-      <h3 className="header__nav-expanded-title">Nature</h3>
+      <h3 className="header__nav-expanded-title">ბუნება</h3>
       <li className="header__nav-expanded-item">
         <a href="" className="header__nav-expanded-link">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -14,7 +14,7 @@ const NavigationExpanded = function ({ navLabel }) {
 
 
           <span>
-            Tskaltubo Boulevard
+            წყალტუბოს პარკი
           </span>
         </a>
       </li>
@@ -25,7 +25,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Gardens and parks
+            ბაღები და პარკები
           </span>
         </a>
       </li>
@@ -36,7 +36,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Cable Cars
+            საბაგიროები
           </span>
         </a>
       </li>
@@ -47,7 +47,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Boat Ride
+            ნავით გასეირნება
           </span>
         </a>
       </li>
@@ -61,7 +61,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Hiking
+            ლაშქრობა
           </span>
         </a>
       </li>
@@ -73,7 +73,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Bicycle Paths
+            ველო-ბილიკები
           </span>
         </a>
       </li>
@@ -84,7 +84,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Camping
+            კემპინგი
           </span>
         </a>
       </li>
@@ -110,7 +110,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Horse Riding
+            ცხენით გასეირნება
           </span>
         </a>
       </li>
@@ -124,7 +124,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Rafting
+            ჯომარდობა
           </span>
         </a>
       </li>
@@ -136,7 +136,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Lakes
+            ტბები
           </span>
         </a>
       </li>
@@ -151,7 +151,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Fishing
+            თევზაობა
           </span>
         </a>
       </li>
@@ -162,7 +162,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Hunting
+            ნადირობა
           </span>
         </a>
       </li>
@@ -177,7 +177,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Rally fun
+            რალით გართობა
           </span>
         </a>
       </li>
@@ -189,7 +189,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Cave Diving
+            მღვიმეში აკვალანგი
           </span>
         </a>
       </li>
@@ -204,7 +204,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Motor Tour
+            მოტო ტური
           </span>
         </a>
       </li>
@@ -220,7 +220,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Canyoning
+            კანიონინგი
           </span>
         </a>
       </li>
@@ -240,18 +240,18 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Waterfalls
+            ჩანჩქერები
           </span>
         </a>
       </li>
     </ul>
     <ul className="header__nav-expanded-list">
-      <h3 className="header__nav-expanded-title">Culture</h3>
+      <h3 className="header__nav-expanded-title">კულტურა</h3>
       <li className="header__nav-expanded-item">
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Old Tskaltubo
+            ძველი წყალტუბო
           </span>
         </a>
       </li>
@@ -259,7 +259,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Square
+            მოედანი
           </span>
         </a>
       </li>
@@ -267,7 +267,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Monuments
+            მონუმენტები
           </span>
         </a>
       </li>
@@ -275,7 +275,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Fountains
+            ფანტანები
           </span>
         </a>
       </li>
@@ -283,7 +283,14 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Historical Fortresses
+            ისტორიული ციხესიმაგრეები          </span>
+        </a>
+      </li>
+      <li className="header__nav-expanded-item">
+        <a href="" className="header__nav-expanded-link">
+
+          <span>
+            ისტორიული ხიდები
           </span>
         </a>
       </li>
@@ -291,7 +298,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Historical Ancient Bridges
+            მუზეუმები
           </span>
         </a>
       </li>
@@ -299,7 +306,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Museums
+            გალერეები
           </span>
         </a>
       </li>
@@ -307,7 +314,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Galleries
+            რელიგიური ღისშესანიშნაობები
           </span>
         </a>
       </li>
@@ -315,7 +322,23 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Religious Sights
+            თეატრები და კინოთეატრები          </span>
+        </a>
+      </li>
+      <li className="header__nav-expanded-item">
+        <a href="" className="header__nav-expanded-link">
+
+          <span>
+            ცირკი
+          </span>
+        </a>
+      </li>
+
+      <li className="header__nav-expanded-item">
+        <a href="" className="header__nav-expanded-link">
+
+          <span>
+            შოპინგი
           </span>
         </a>
       </li>
@@ -323,68 +346,26 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Theaters and Cinemas
-          </span>
+            საკონცერტო არენები          </span>
         </a>
       </li>
       <li className="header__nav-expanded-item">
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Circus
-          </span>
-        </a>
-      </li>
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
-
-          <span>
-            Fun Activities
-          </span>
-        </a>
-      </li>
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
-
-          <span>
-            Entertainment
-          </span>
-        </a>
-      </li>
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
-
-          <span>
-            Shopping
-          </span>
-        </a>
-      </li>
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
-
-          <span>
-            Concert Arenas
-          </span>
-        </a>
-      </li>
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
-
-          <span>
-            Festivals
+            ფესტივალები
           </span>
         </a>
       </li>
       <li className="header__nav-expanded-item">
         <a href="" className="header__nav-expanded-link">
           <span>
-            Public Festivals
-          </span>
+            სახალხო ფესტივალები          </span>
         </a>
       </li>
     </ul>
     <ul className="header__nav-expanded-list">
-      <h3 className="header__nav-expanded-title">Gastronomy and wine</h3>
+      <h3 className="header__nav-expanded-title">გასტრონომია და ღვინო</h3>
       <li className="header__nav-expanded-item">
         <a href="" className="header__nav-expanded-link">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -394,7 +375,7 @@ const NavigationExpanded = function ({ navLabel }) {
 
 
           <span>
-            Imeretian Cuisine
+            იმერული სამზარეულო
           </span>
         </a>
       </li>
@@ -406,7 +387,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Restaurants
+            რესტორნები
           </span>
         </a>
       </li>
@@ -417,8 +398,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Wine Tours
-          </span>
+            ღვინის ტურები          </span>
         </a>
       </li>
       <li className="header__nav-expanded-item">
@@ -430,8 +410,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Culinary Tours
-          </span>
+            კულინარიული ტურები          </span>
         </a>
       </li>
       <li className="header__nav-expanded-item">
@@ -446,8 +425,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Agro Bazaar
-          </span>
+            აგრო ბაზარი          </span>
         </a>
       </li>
     </ul>
@@ -455,12 +433,12 @@ const NavigationExpanded = function ({ navLabel }) {
 
   const exploreRegions = <div className={`header__nav-expanded ${navLabel}-expanded`}>
     <ul className="header__nav-expanded-list">
-      <h3 className="header__nav-expanded-title">Administrative Units</h3>
+      <h3 className="header__nav-expanded-title">ადმინისტრაციული ერთეულები</h3>
       <li className="header__nav-expanded-item">
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Tskaltubo City Administrative Unit
+            ქალაქ წყალტუბოს ადმინისტრაციული ერთეული
           </span>
         </a>
       </li>
@@ -469,7 +447,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Mekvena Administrative Unit
+            მექვენის ადმინისტრაციული ერთეული
           </span>
         </a>
       </li>
@@ -478,7 +456,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Ofurchkheti Administrative Unit
+            ოფურჩხეთის ადმინისტრაციული ერთეული
           </span>
         </a>
       </li>
@@ -487,7 +465,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Rioni Administrative Unit
+            რიონის ადმინისტრაციული ერთეული
           </span>
         </a>
       </li>
@@ -496,7 +474,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Qvitiri Administrative Unit
+            ქვიტირის ადმინისტრაციული ერთეული
           </span>
         </a>
       </li>
@@ -505,8 +483,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Geguti Administrative Unit
-          </span>
+            გეგუთის ადმინისტრაციული ერთეული          </span>
         </a>
       </li>
 
@@ -514,8 +491,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Patriketi Administrative Unit
-          </span>
+            პატრიკეთის ადმინისტრაციული ერთეული          </span>
         </a>
       </li>
 
@@ -523,8 +499,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Opshkviti Administrative Unit
-          </span>
+            ოფშკვითის ადმინისტრაციული ერთეული          </span>
         </a>
       </li>
 
@@ -532,8 +507,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Sayulia Administrative Unit
-          </span>
+            საყულიას ადმინისტრაციული ერთეული          </span>
         </a>
       </li>
 
@@ -541,8 +515,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Mukhiani Administrative Unit
-          </span>
+            მუხიანის ადმინისტრაციული ერთეული          </span>
         </a>
       </li>
 
@@ -550,8 +523,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Fartskhanayanevi Administrative Unit
-          </span>
+            ფარცხანაყანევის ადმინისტრაციული ერთეული          </span>
         </a>
       </li>
 
@@ -559,8 +531,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Maghlaki Administrative Unit
-          </span>
+            მაღლაკის ადმინისტრაციული ერთეული          </span>
         </a>
       </li>
 
@@ -568,8 +539,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Gumbra Administrative Unit
-          </span>
+            გუმბრას ადმინისტრაციული ერთეული          </span>
         </a>
       </li>
 
@@ -577,8 +547,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Gvishtibi Administrative Unit
-          </span>
+            ღვიშტიბის ადმინისტრაციული ერთეული          </span>
         </a>
       </li>
 
@@ -586,8 +555,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Tskaltubo Administrative Unit
-          </span>
+            წყალტუბოს ადმინისტრაციული ერთეული          </span>
         </a>
       </li>
 
@@ -595,8 +563,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Tskhunkuri Administrative Unit
-          </span>
+            ცხუნკურის ადმინისტრაციული ერთეული          </span>
         </a>
       </li>
 
@@ -604,8 +571,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Rnorisi Administrative Unit
-          </span>
+            რნორისის ადმინისტრაციული ერთეული          </span>
         </a>
       </li>
     </ul>
@@ -613,12 +579,12 @@ const NavigationExpanded = function ({ navLabel }) {
 
   const planYourVisit = <div className={`header__nav-expanded ${navLabel}-expanded`}>
     <ul className="header__nav-expanded-list">
-      <h3 className="header__nav-expanded-title">Information</h3>
+      <h3 className="header__nav-expanded-title">ინფორმაცია</h3>
       <li className="header__nav-expanded-item">
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Brochures And Maps
+            ბროშურები და რუკები
           </span>
         </a>
       </li>
@@ -627,7 +593,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Tourist Information Center
+            ტურიზმის ცენტრი
           </span>
         </a>
       </li>
@@ -636,7 +602,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Travel Agencies
+            ტურისტული სააგენტოები
           </span>
         </a>
       </li>
@@ -645,7 +611,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Tourist Routes
+            ტურისტული მარშუტები
           </span>
         </a>
       </li>
@@ -654,7 +620,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Safety
+            უსაფრთხოება
           </span>
         </a>
       </li>
@@ -663,7 +629,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Currency Conversion
+            ვალუტის კონვერტაცია
           </span>
         </a>
       </li>
@@ -672,7 +638,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Tax Free / VAT Refund
+            Tax Free / დღგ-ს დაბრუნება
           </span>
         </a>
       </li>
@@ -681,7 +647,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Embassy In Georgia
+            საქართველოს საელჩო
           </span>
         </a>
       </li>
@@ -690,7 +656,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Visa Requirements
+            სავიზო მოთხოვნები
           </span>
         </a>
       </li>
@@ -699,7 +665,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Weather And Climate
+            ამინდი და კლიმატი
           </span>
         </a>
       </li>
@@ -708,47 +674,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Tskaltubo Card
-          </span>
-        </a>
-      </li>
-
-    </ul>
-
-    <ul className="header__nav-expanded-list">
-      <h3 className="header__nav-expanded-title">Transportation</h3>
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
-
-          <span>
-            Flights
-          </span>
-        </a>
-      </li>
-
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
-
-          <span>
-            Railway
-          </span>
-        </a>
-      </li>
-
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
-
-          <span>
-            Auto Transport
-          </span>
-        </a>
-      </li>
-
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
-
-          <span>
-            Public Transport
+            წყალტუბოს ბარათი
           </span>
         </a>
       </li>
@@ -756,12 +682,12 @@ const NavigationExpanded = function ({ navLabel }) {
     </ul>
 
     <ul className="header__nav-expanded-list">
-      <h3 className="header__nav-expanded-title">Accommodation</h3>
+      <h3 className="header__nav-expanded-title">ტრანსპორტირება</h3>
       <li className="header__nav-expanded-item">
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Hotels
+            ფრენები
           </span>
         </a>
       </li>
@@ -770,7 +696,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Apart-Hotels
+            რკინიგზა
           </span>
         </a>
       </li>
@@ -779,7 +705,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Family Hotels
+            ავტო ტრანსპორტირება
           </span>
         </a>
       </li>
@@ -788,43 +714,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Cottages
-          </span>
-        </a>
-      </li>
-
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
-
-          <span>
-            Hostels
-          </span>
-        </a>
-      </li>
-
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
-
-          <span>
-            Countryside House
-          </span>
-        </a>
-      </li>
-
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
-
-          <span>
-            Glamping
-          </span>
-        </a>
-      </li>
-
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
-
-          <span>
-            Camping
+            საზოგადოებრივი ტრანსპორტი
           </span>
         </a>
       </li>
@@ -832,7 +722,83 @@ const NavigationExpanded = function ({ navLabel }) {
     </ul>
 
     <ul className="header__nav-expanded-list">
-      <h3 className="header__nav-expanded-title">Where to eat</h3>
+      <h3 className="header__nav-expanded-title">განთავსება</h3>
+      <li className="header__nav-expanded-item">
+        <a href="" className="header__nav-expanded-link">
+
+          <span>
+            სასტუმროები
+          </span>
+        </a>
+      </li>
+
+      <li className="header__nav-expanded-item">
+        <a href="" className="header__nav-expanded-link">
+
+          <span>
+            აპარტ-ჰოსტელები
+          </span>
+        </a>
+      </li>
+
+      <li className="header__nav-expanded-item">
+        <a href="" className="header__nav-expanded-link">
+
+          <span>
+            საოჯახო სასტუმროები
+          </span>
+        </a>
+      </li>
+
+      <li className="header__nav-expanded-item">
+        <a href="" className="header__nav-expanded-link">
+
+          <span>
+            კოტეჯები
+          </span>
+        </a>
+      </li>
+
+      <li className="header__nav-expanded-item">
+        <a href="" className="header__nav-expanded-link">
+
+          <span>
+            ჰოსტელები
+          </span>
+        </a>
+      </li>
+
+      <li className="header__nav-expanded-item">
+        <a href="" className="header__nav-expanded-link">
+
+          <span>
+            სახლი სოფლად
+          </span>
+        </a>
+      </li>
+
+      <li className="header__nav-expanded-item">
+        <a href="" className="header__nav-expanded-link">
+
+          <span>
+            ფლემფინგი
+          </span>
+        </a>
+      </li>
+
+      <li className="header__nav-expanded-item">
+        <a href="" className="header__nav-expanded-link">
+
+          <span>
+            ქემფინგი
+          </span>
+        </a>
+      </li>
+
+    </ul>
+
+    <ul className="header__nav-expanded-list">
+      <h3 className="header__nav-expanded-title">კვება</h3>
       <li className="header__nav-expanded-item">
         <a href="" className="header__nav-expanded-link">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -841,7 +807,7 @@ const NavigationExpanded = function ({ navLabel }) {
           </svg>
 
           <span>
-            Restaurants
+            რესტორნები
           </span>
         </a>
       </li>
@@ -850,7 +816,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Cafe-Bars
+            კაფე-ბარები
           </span>
         </a>
       </li>
@@ -870,7 +836,7 @@ const NavigationExpanded = function ({ navLabel }) {
 
 
           <span>
-            Wine Cellar
+            ღვინის მარნები
           </span>
         </a>
       </li>
@@ -879,7 +845,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Fast Food
+            სწრაფი კვება
           </span>
         </a>
       </li>
@@ -889,11 +855,11 @@ const NavigationExpanded = function ({ navLabel }) {
 
   const aboutTskaltubo = <div className={`header__nav-expanded ${navLabel}-expanded`}>
     <ul className="header__nav-expanded-list">
-      <h3 className="header__nav-expanded-title">About Tskaltubo</h3>
+      <h3 className="header__nav-expanded-title">წყალტუბოს შესახებ</h3>
       <li className="header__nav-expanded-item">
         <a href="" className="header__nav-expanded-link">
           <span>
-            Tskaltubo History
+            წყალტუბოს ისტორია
           </span>
         </a>
       </li>
@@ -902,7 +868,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            International Awards
+            საერთაშორისო ჯილდოები
           </span>
         </a>
       </li>
@@ -910,7 +876,7 @@ const NavigationExpanded = function ({ navLabel }) {
       <li className="header__nav-expanded-item">
         <a href="" className="header__nav-expanded-link">
           <span>
-            Photo and Video Gallery
+            ფოტო და ვიდეო გალერეა
           </span>
         </a>
       </li>
@@ -919,18 +885,18 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            Statistics and Reports
+            სტატისტიკა და ანგარიშები
           </span>
         </a>
       </li>
     </ul>
 
     <ul className="header__nav-expanded-list">
-      <h3 className="header__nav-expanded-title">Blogs</h3>
+      <h3 className="header__nav-expanded-title">ბლოგი</h3>
       <li className="header__nav-expanded-item">
         <a href="" className="header__nav-expanded-link">
           <span>
-            Blogs and Articles
+            ბლოგები და სტატიები
           </span>
         </a>
       </li>
@@ -939,7 +905,7 @@ const NavigationExpanded = function ({ navLabel }) {
         <a href="" className="header__nav-expanded-link">
 
           <span>
-            World About Us
+            მსოფლიო ჩვენს შესახებ
           </span>
         </a>
       </li></ul>
