@@ -13,12 +13,15 @@ const Header = () => {
   };
 
   useEffect(() => {
-    const navExpandedInterval = setInterval(() => {
+    const navExpandedInterval = setTimeout(() => {
       setNavExpanded(null);
-    }, 100);
+      console.log(navExpanded);
+    }, 8000);
 
-    return clearInterval(navExpandedInterval);
-  }, []);
+    return () => {
+      clearTimeout(navExpandedInterval);
+    };
+  }, [navExpanded]);
 
 
   return (
