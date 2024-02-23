@@ -1048,3 +1048,27 @@ img {
 .hotel-card-link {
   background-color: #6ABB6D;
 }
+
+.main {
+  position: relative;
+}
+
+.icon-man {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  border: solid black 1px;
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+  /* padding: 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.weather-icons svg {
+  cursor: pointer;
+  margin-left: 1rem;
+}
