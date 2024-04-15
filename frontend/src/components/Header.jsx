@@ -1,9 +1,8 @@
 /* eslint-disable react/prop-types */
 import NavigationExpanded from "./NavigationExpanded";
-
-import logo from "../assets/logo.png";
-import flagGeo from "../assets/flag-geo.svg";
+import flagGeo from "../assets/icons/flag-geo.svg";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [navExpanded, setNavExpanded] = useState(null);
@@ -28,9 +27,9 @@ const Header = () => {
     <header className="header">
       {/* LOGO BOX */}
       <div className="logo-box">
-        <a href="/">
-          <img className="logo-box__logo" src={logo} alt="Visit tskaltubo logo" />
-        </a>
+        <Link href="/">
+          <img className="logo-box__logo" src='/logo.png' alt="Visit tskaltubo logo" />
+        </Link>
         <p className="logo-box__slogan">
           <span>წყალტუბოს</span>
           <span>ტურიზმის</span>

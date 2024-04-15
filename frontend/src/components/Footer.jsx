@@ -1,7 +1,7 @@
 /* eslint-disable no-irregular-whitespace */
 /* eslint-disable react/prop-types */
-import municipalityLogo from "../assets/tskaltubo-logo.png";
-import logo from "../assets/logo.png";
+
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -11,9 +11,9 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-info">
             <div className="logo-box">
-              <a href="/">
-                <img className="logo-box__logo" src={logo} alt="Visit tskaltubo logo" />
-              </a>
+              <Link to="/">
+                <img className="logo-box__logo" src="/logo.png" alt="Visit tskaltubo logo" />
+              </Link>
               <p className="logo-box__slogan">
                 <span>წყალტუბოს</span>
                 <span>ტურიზმის</span>
@@ -191,7 +191,7 @@ const Footer = () => {
             </ul>
 
             <div className="footer-nav-logo">
-              <img src={municipalityLogo} alt={municipalityLogo} />
+              <img src='/logo-municipality.png' alt='წყალტუბოს მუნიციპალიტეტის ლოგო' />
             </div>
           </nav>
 

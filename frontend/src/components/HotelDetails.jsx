@@ -1,14 +1,20 @@
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "./Header";
+import Footer from "./Footer";
 import { Link, useParams } from "react-router-dom";
-import mapImg from "/map.png";
+import mapImg from "../assets/images/map.png";
+
+// hotels
+import hotelArgo from "../assets/images/hotels/argo.jpg";
+import hotelGrandCentral from "../assets/images/hotels/argo.jpg";
+import hotelPlaza from "../assets/images/hotels/plaza.png";
+import hotelPrometeus from "../assets/images/hotels/promete.jpg";
 
 const hotelsData = [
   {
     id: "wyaltubo-plaza",
     name: "წყალტუბო პლაზა",
-    image: "/plaza.png",
-    cardImage: "/hotels-1.png",
+    image: hotelPlaza,
+    cardImage: hotelPlaza,
     rating: 5,
     services: true,
     descriptionSmall: "წყალტუბო პლაზა, სასტუმრო წყალტუბოში",
@@ -28,11 +34,11 @@ const hotelsData = [
   {
     id: "wyaltubo-prometheus",
     name: "სასტუმრო პრომეთე",
-    image: "/promete.jpg",
-    cardImage: "/hotels-2.png",
+    image: hotelPrometeus,
+    cardImage: hotelPrometeus,
     rating: 5,
     services: true,
-    descriptionSmall: "სასტუმრო “პრომეთე” მდებარეობს ქალაქ წყალტუბოში, ცენტრალური პარკის მახლობლად.",
+    descriptionSmall: "სასტუმრო “პრომეთე” ქალაქ წყალტუბოში.",
     descriptionFull: `
     სასტუმრო “პრომეთე” მდებარეობს ქალაქ წყალტუბოში, ცენტრალური პარკის მახლობლად. სამკურნალო წყლებიდან დაშორებულია 200მ-ით. ხოლო პრომეთეს მღვიმიდან 3 კმ.
     ტურისტებისა და დამსვენებლების განკარგულებაში იმყოფება 46 სტანდარტული ორადგილიანი ნომერი და 3 ლუქსი. ტურისტებს და დამსვენებლებს შეუძლიათ სასტუმროს ბარ-რესტორანში დრო სასიამოვნოდ გაატარონ.
@@ -53,8 +59,8 @@ const hotelsData = [
   {
     id: "wyaltubo-argo",
     name: "სასტუმრო არგო",
-    image: "/argo.jpg",
-    cardImage: "/hotels-2.png",
+    image: hotelArgo,
+    cardImage: hotelArgo,
     rating: 5,
     services: true,
     descriptionSmall: "სასტუმრო არგო მდებარეობს წყალტუბოში.",
@@ -74,8 +80,8 @@ const hotelsData = [
   {
     id: "wyaltubo-grand-central",
     name: "გრანდ ცენტრალი",
-    image: "/grand-central.jpg",
-    cardImage: "/grand-central.jpg",
+    image: hotelGrandCentral,
+    cardImage: hotelGrandCentral,
     rating: 5,
     services: true,
     descriptionSmall: "სასტუმრო გრანდ ცენტრალი მდებარეობს წყალტუბოში.",

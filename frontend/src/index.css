@@ -75,7 +75,7 @@ img {
 
 /* HERO STYLES */
 .hero {
-  background-image: url("./assets/hero-big.png");
+  background-image: url("./assets/images/tskaltubo-video-cover.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -170,6 +170,11 @@ img {
 
 .header__nav-expanded-list {
   list-style: none;
+}
+
+.header__nav-expanded-list-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .header__nav-expanded-item {
@@ -776,6 +781,7 @@ img {
   padding: 1.6rem 2.4rem;
   cursor: pointer;
   margin-top: 1.6rem;
+  width: fit-content;
 }
 
 .video-popup-box {
@@ -786,6 +792,7 @@ img {
 
 .video-popup-img {
   background-position: center;
+  height: 100%;
 }
 
 .video-popup-icon {

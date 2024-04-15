@@ -434,146 +434,151 @@ const NavigationExpanded = function ({ navLabel }) {
   const exploreRegions = <div className={`header__nav-expanded ${navLabel}-expanded`}>
     <ul className="header__nav-expanded-list">
       <h3 className="header__nav-expanded-title">ადმინისტრაციული ერთეულები</h3>
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
+      <div className="header__nav-expanded-list-grid">
+        <div className="header__nav-expanded-list-grid-1">
+          <li className="header__nav-expanded-item">
+            <a href="" className="header__nav-expanded-link">
+              <span>
+                ქალაქ წყალტუბოს ადმინისტრაციული ერთეული
+              </span>
+            </a>
+          </li>
 
-          <span>
-            ქალაქ წყალტუბოს ადმინისტრაციული ერთეული
-          </span>
-        </a>
-      </li>
+          <li className="header__nav-expanded-item">
+            <a href="" className="header__nav-expanded-link">
 
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
+              <span>
+                მექვენის ადმინისტრაციული ერთეული
+              </span>
+            </a>
+          </li>
 
-          <span>
-            მექვენის ადმინისტრაციული ერთეული
-          </span>
-        </a>
-      </li>
+          <li className="header__nav-expanded-item">
+            <a href="" className="header__nav-expanded-link">
 
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
+              <span>
+                ოფურჩხეთის ადმინისტრაციული ერთეული
+              </span>
+            </a>
+          </li>
 
-          <span>
-            ოფურჩხეთის ადმინისტრაციული ერთეული
-          </span>
-        </a>
-      </li>
+          <li className="header__nav-expanded-item">
+            <a href="" className="header__nav-expanded-link">
 
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
+              <span>
+                რიონის ადმინისტრაციული ერთეული
+              </span>
+            </a>
+          </li>
 
-          <span>
-            რიონის ადმინისტრაციული ერთეული
-          </span>
-        </a>
-      </li>
+          <li className="header__nav-expanded-item">
+            <a href="" className="header__nav-expanded-link">
 
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
+              <span>
+                ქვიტირის ადმინისტრაციული ერთეული
+              </span>
+            </a>
+          </li>
 
-          <span>
-            ქვიტირის ადმინისტრაციული ერთეული
-          </span>
-        </a>
-      </li>
+          <li className="header__nav-expanded-item">
+            <a href="" className="header__nav-expanded-link">
 
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
+              <span>
+                გეგუთის ადმინისტრაციული ერთეული          </span>
+            </a>
+          </li>
 
-          <span>
-            გეგუთის ადმინისტრაციული ერთეული          </span>
-        </a>
-      </li>
+          <li className="header__nav-expanded-item">
+            <a href="" className="header__nav-expanded-link">
 
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
+              <span>
+                პატრიკეთის ადმინისტრაციული ერთეული          </span>
+            </a>
+          </li>
 
-          <span>
-            პატრიკეთის ადმინისტრაციული ერთეული          </span>
-        </a>
-      </li>
+          <li className="header__nav-expanded-item">
+            <a href="" className="header__nav-expanded-link">
 
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
+              <span>
+                ოფშკვითის ადმინისტრაციული ერთეული          </span>
+            </a>
+          </li>
 
-          <span>
-            ოფშკვითის ადმინისტრაციული ერთეული          </span>
-        </a>
-      </li>
+          <li className="header__nav-expanded-item">
+            <a href="" className="header__nav-expanded-link">
 
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
+              <span>
+                საყულიას ადმინისტრაციული ერთეული</span>
+            </a>
+          </li>
+        </div>
+        <div className="header__nav-expanded-list-grid-1">
 
-          <span>
-            საყულიას ადმინისტრაციული ერთეული          </span>
-        </a>
-      </li>
+          <li className="header__nav-expanded-item">
+            <a href="" className="header__nav-expanded-link">
 
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
+              <span>
+                მუხიანის ადმინისტრაციული ერთეული          </span>
+            </a>
+          </li>
 
-          <span>
-            მუხიანის ადმინისტრაციული ერთეული          </span>
-        </a>
-      </li>
+          <li className="header__nav-expanded-item">
+            <a href="" className="header__nav-expanded-link">
 
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
+              <span>
+                ფარცხანაყანევის ადმინისტრაციული ერთეული          </span>
+            </a>
+          </li>
 
-          <span>
-            ფარცხანაყანევის ადმინისტრაციული ერთეული          </span>
-        </a>
-      </li>
+          <li className="header__nav-expanded-item">
+            <a href="" className="header__nav-expanded-link">
 
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
+              <span>
+                მაღლაკის ადმინისტრაციული ერთეული          </span>
+            </a>
+          </li>
 
-          <span>
-            მაღლაკის ადმინისტრაციული ერთეული          </span>
-        </a>
-      </li>
+          <li className="header__nav-expanded-item">
+            <a href="" className="header__nav-expanded-link">
 
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
+              <span>
+                გუმბრას ადმინისტრაციული ერთეული          </span>
+            </a>
+          </li>
 
-          <span>
-            გუმბრას ადმინისტრაციული ერთეული          </span>
-        </a>
-      </li>
+          <li className="header__nav-expanded-item">
+            <a href="" className="header__nav-expanded-link">
 
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
+              <span>
+                ღვიშტიბის ადმინისტრაციული ერთეული          </span>
+            </a>
+          </li>
 
-          <span>
-            ღვიშტიბის ადმინისტრაციული ერთეული          </span>
-        </a>
-      </li>
+          <li className="header__nav-expanded-item">
+            <a href="" className="header__nav-expanded-link">
 
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
+              <span>
+                წყალტუბოს ადმინისტრაციული ერთეული          </span>
+            </a>
+          </li>
 
-          <span>
-            წყალტუბოს ადმინისტრაციული ერთეული          </span>
-        </a>
-      </li>
+          <li className="header__nav-expanded-item">
+            <a href="" className="header__nav-expanded-link">
 
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
+              <span>
+                ცხუნკურის ადმინისტრაციული ერთეული          </span>
+            </a>
+          </li>
 
-          <span>
-            ცხუნკურის ადმინისტრაციული ერთეული          </span>
-        </a>
-      </li>
+          <li className="header__nav-expanded-item">
+            <a href="" className="header__nav-expanded-link">
 
-      <li className="header__nav-expanded-item">
-        <a href="" className="header__nav-expanded-link">
-
-          <span>
-            რნორისის ადმინისტრაციული ერთეული          </span>
-        </a>
-      </li>
+              <span>
+                რნორისის ადმინისტრაციული ერთეული          </span>
+            </a>
+          </li>
+        </div>
+      </div>
     </ul>
   </div>;
 
@@ -722,7 +727,7 @@ const NavigationExpanded = function ({ navLabel }) {
     </ul>
 
     <ul className="header__nav-expanded-list">
-      <h3 className="header__nav-expanded-title">განთავსება</h3>
+      <h3 className="header__nav-expanded-title">განთავსების ობიექტები</h3>
       <li className="header__nav-expanded-item">
         <a href="" className="header__nav-expanded-link">
 
@@ -798,7 +803,7 @@ const NavigationExpanded = function ({ navLabel }) {
     </ul>
 
     <ul className="header__nav-expanded-list">
-      <h3 className="header__nav-expanded-title">კვება</h3>
+      <h3 className="header__nav-expanded-title">კვების ობიექტები</h3>
       <li className="header__nav-expanded-item">
         <a href="" className="header__nav-expanded-link">
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

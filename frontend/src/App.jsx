@@ -1,35 +1,33 @@
-/* eslint-disable no-irregular-whitespace */
-import logo from "./assets/logo.png";
-// import flagGeo from "./assets/flag-geo.svg";
-import prometheusCave from "./assets/prometheus-cave.png";
-import satafliaCave from "./assets/sataflia-cave.png";
-import tskaltuboPark from "./assets/tskaltubo-park.png";
-import brokenLake from "./assets/broken-lake.png";
-// import tskaltuboPlaza1 from "./assets/hotels-1.png";
-// import tskaltuboPlaza2 from "./assets/hotels-2.png";
-// import tskaltuboPlaza3 from "./assets/hotels-3.png";
-import cardMain1 from "./assets/card-main-1.png";
-import cardMain2 from "./assets/card-main-2.png";
-import cardMain3 from "./assets/card-main-3.png";
-import cardMain4 from "./assets/card-main-4.png";
-import guide1 from "./assets/gidi-1-beto.jpg";
-import guide2 from "./assets/gidi-2-tyabladze.jpg";
-import guide3 from "./assets/gidi-3-fancxava.jpg";
-// import driver1 from "./assets/driver-1.png";
-// import driver2 from "./assets/driver-2.png";
-// import driver3 from "./assets/driver-3.png";
-import videoBg from "./assets/tskaltubo-video-cover.png";
+/*eslint no-irregular-whitespace: ["error", { "skipJSXText": true }]*/
+import prometheusCave from "./assets/images/popular/prometheus-cave.png";
+import satafliaCave from "./assets/images/popular/sataflia-cave.png";
+import tskaltuboPark from "./assets/images/popular/tskaltubo-park.png";
+import brokenLake from "./assets/images/popular/broken-lake.png";
+import cardMain1 from "./assets/images/cards/card-main-1.png";
+import cardMain2 from "./assets/images/cards/card-main-2.png";
+import cardMain3 from "./assets/images/cards/card-main-3.png";
+import cardMain4 from "./assets/images/cards/card-main-4.png";
+import guide1 from "./assets/images/guides/gidi-1-beto.jpg";
+import guide2 from "./assets/images/guides/gidi-2-tyabladze.jpg";
+import guide3 from "./assets/images/guides/gidi-3-fancxava.jpg";
+import videoBg from "./assets/images/tskaltubo-video-cover.png";
+// hotels
+import hotelArgo from "./assets/images/hotels/argo.jpg";
+import hotelGrandCentral from "./assets/images/hotels/argo.jpg";
+import hotelPlaza from "./assets/images/hotels/plaza.png";
+import hotelPrometeus from "./assets/images/hotels/promete.jpg";
+
 
 // Components
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-// import Hotel from "./components/Hotel";
 // SLICK CSS
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
-// import { useState } from "react";
-import { Link } from 'react-router-dom';
+// import Slider from "react-slick";
+// import { Link } from 'react-router-dom';
+// import Hotel from "./components/Hotel";
+import PopularCard from "./components/PopularCard";
 import Hotel from "./components/Hotel";
 
 
@@ -37,8 +35,8 @@ const hotelsData = [
   {
     id: "wyaltubo-plaza",
     name: "წყალტუბო პლაზა",
-    image: "/plaza.png",
-    cardImage: "/hotels-1.png",
+    image: hotelPlaza,
+    cardImage: hotelPlaza,
     rating: 5,
     services: true,
     descriptionSmall: "წყალტუბო პლაზა, სასტუმრო წყალტუბოში",
@@ -58,8 +56,8 @@ const hotelsData = [
   {
     id: "wyaltubo-prometheus",
     name: "სასტუმრო პრომეთე",
-    image: "/promete.jpg",
-    cardImage: "/hotels-2.png",
+    image: hotelPrometeus,
+    cardImage: hotelPrometeus,
     rating: 5,
     services: true,
     descriptionSmall: "სასტუმრო “პრომეთე” ქალაქ წყალტუბოში.",
@@ -83,8 +81,8 @@ const hotelsData = [
   {
     id: "wyaltubo-argo",
     name: "სასტუმრო არგო",
-    image: "/argo.jpg",
-    cardImage: "/argo.jpg",
+    image: hotelArgo,
+    cardImage: hotelArgo,
     rating: 5,
     services: true,
     descriptionSmall: "სასტუმრო არგო მდებარეობს წყალტუბოში.",
@@ -104,8 +102,8 @@ const hotelsData = [
   {
     id: "wyaltubo-grand-central",
     name: "გრანდ ცენტრალი",
-    image: "/grand-central.jpg",
-    cardImage: "/grand-central.jpg",
+    image: hotelGrandCentral,
+    cardImage: hotelGrandCentral,
     rating: 5,
     services: true,
     descriptionSmall: "სასტუმრო გრანდ ცენტრალი მდებარეობს წყალტუბოში.",
@@ -126,14 +124,14 @@ const hotelsData = [
 
 function App() {
   // SLICK SLIDER OPTIONS
-  const settings = {
-    dots: true,
-    arrows: false,
-    infinite: true,
-    speed: 1000,
-    slidesToShow: 3,
-    slidesToScroll: 3
-  };
+  // const settings = {
+  //   dots: true,
+  //   arrows: false,
+  //   infinite: true,
+  //   speed: 1000,
+  //   slidesToShow: 4,
+  //   slidesToScroll: 4
+  // };
 
   const brokenLakeStyle = {
     width: '302px',
@@ -207,41 +205,22 @@ function App() {
             </div>
 
             <div className="popular-cards">
-              <div className="popular-card">
-                <img src={prometheusCave} alt={prometheusCave} className="popular-card__img" />
-                <Link className="popular-card-link" to={`/hotels/wyaltubo-plaza`}>
-                  <h2 className="heading-white heading-abs">
-                    პრომეთეს მღვიმე
-                  </h2>
-                </Link>
-              </div>
-
-              <div className="popular-card">
-                <img src={brokenLake} alt={brokenLake} className="popular-card__img" />
-                <a href="#" className="popular-card-link">
-                  <h2 className="heading-white heading-abs">
-                    გაბზარული ტბა
-                  </h2>
-                </a>
-              </div>
-
-              <div className="popular-card">
-                <img src={satafliaCave} alt={satafliaCave} className="popular-card__img" />
-                <a href="#" className="popular-card-link">
-                  <h2 className="heading-white heading-abs">
-                    სათაფლიის მღვიმე
-                  </h2>
-                </a>
-              </div>
-
-              <div className="popular-card">
-                <img src={tskaltuboPark} alt={tskaltuboPark} className="popular-card__img" />
-                <a href="#" className="popular-card-link">
-                  <h2 className="heading-white heading-abs">
-                    წყალტუბოს პარკი
-                  </h2>
-                </a>
-              </div>
+              <PopularCard
+                popularImg={prometheusCave}
+                popularTitle={`პრომეთეს მღვიმე`}
+              />
+              <PopularCard
+                popularImg={brokenLake}
+                popularTitle={`გაბზარული ტბა`}
+              />
+              <PopularCard
+                popularImg={satafliaCave}
+                popularTitle={`სათაფლიის მღვიმე`}
+              />
+              <PopularCard
+                popularImg={tskaltuboPark}
+                popularTitle={`წყალტუბოს პარკი`}
+              />
             </div>
           </div>
         </section>
@@ -253,24 +232,23 @@ function App() {
               <button className="see-all-btn">ყველას ნახვა</button>
             </div>
 
-            <div className="hotels-cards">
-              <div className="slider-container">
-                <Slider {...settings}>
-                  {
-                    hotelsData.map(hotel => {
-                      return (
-                        <Hotel
-                          key={hotel.id}
-                          hotel={hotel}
-                        />
-                      );
-                    })
-                  }
-
-
-
-                </Slider>
-              </div>
+            <div className="popular-cards">
+              {/* <div className="slider-container"> */}
+              {/* <Slider {...settings}> */}
+              {
+                hotelsData.map(hotel => {
+                  return (
+                    <Hotel
+                      key={hotel.id}
+                      popularHotelImg={hotel.cardImage}
+                      popularHotelTitle={hotel.name}
+                      popularHotelId={hotel.id}
+                    />
+                  );
+                })
+              }
+              {/* </Slider> */}
+              {/* </div> */}
             </div>
           </div>
         </section>
@@ -893,10 +871,6 @@ function App() {
                     1930-იანი წლებიდან წყალტუბოს საკურორტო ქალაქად განვითარებას ხელი შეუწყო აქ არსებულმა ბუნებრივმა სამკურნალო წყლებმა. კურორტი გაშენდა წყლის საბადოების გარშემო და საბჭოთა კავშირში დიდი პოპულარობით სარგებლობდა. სრული დატვირთვით მუშაობისას წყალტუბო წელიწადში 160.000 ვიზიტორს მასპინძლობდა. წყალტუბოს თერმული წყალი დაბალი მინერალიზაციისა, მაგრამ ბუნებრივად მაღალი ტემპერატურის...
                   </span>
                 </p>
-
-                <button className="video-text-btn">
-                  სრულად ნახვა
-                </button>
               </div>
 
               <div className="video-popup-box">
@@ -909,6 +883,10 @@ function App() {
                   </svg>
                 </span>
               </div>
+
+              <button className="video-text-btn">
+                სრულად ნახვა
+              </button>
             </div>
           </div>
         </section>
@@ -1522,7 +1500,7 @@ function App() {
         </section> */}
       </main>
 
-      <Footer logo={logo} />
+      <Footer />
 
       {/* ICON MAN */}
       <div className="icon-man">

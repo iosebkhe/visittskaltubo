@@ -5,7 +5,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import App from './App.jsx';
-import HotelDetails from "./HotelDetails.jsx";
+import HotelDetails from "./components/HotelDetails.jsx";
 import GuideDetails from "./components/GuideDetails.jsx";
 import './index.css';
 import '@fontsource/firago';
@@ -22,14 +22,18 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <div>ERROR 404</div>
   },
   {
     path: "hotels/:hotelId",
-    element: <HotelDetails />
+    element: <HotelDetails />,
+    errorElement: <div>ERROR 404</div>
+
   },
   {
     path: "guides/:guideId",
-    element: <GuideDetails />
+    element: <GuideDetails />,
+    errorElement: <div>ERROR 404</div>
   }
 ]);
 
